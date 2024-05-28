@@ -1,0 +1,121 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    background-color: #f2f2f2;
+}
+.form-container{
+    padding: 20px;
+    margin: 2rem;
+    background-color: antiquewhite;
+    box-shadow: 0 0 50px rgb(191, 152, 23);
+    box-sizing: border-box;
+    border-radius: 1rem;
+}
+
+.form-group{
+    padding: 1rem;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    /* flex-wrap: wrap; */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.form-group input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.form-group a:hover {
+    background-color: #bf3418;
+}
+.form-group a {
+    background-color: #108ba7;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.form-group a{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: blue;
+    display: flex;
+    justify-content: center;
+}
+p{
+    color: #bf3418;
+    display: flex;
+    justify-content: center;
+}
+
+/* <style>
+        
+        .form-container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            
+            width: 100%;
+            max-width: 500px;
+            box-sizing: border-box;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-group input, .form-group select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        
+    </style> */

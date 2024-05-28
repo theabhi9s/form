@@ -1,0 +1,150 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.clock{
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.hori{
+    height: 0.8rem;
+}
+
+.heading{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.rightheading{
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.image{
+    height: 20vh;
+    width: 10vw';
+}
+
+.head{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+}
+
+.head_2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+}
+
+.jan{
+    font-size: 1.8rem;
+}
+
+.imageheading{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.line{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.para{
+    font-size: 1.1rem;
+}
+
+/* navbar */
+
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1c70c3;
+    border-bottom: 1px solid #dee2e6;
+    flex-wrap: wrap;
+    /* padding: 10px; */
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+    display: block;
+}
+
+.nav-link:hover {
+    background-color: #e9ecef;
+    color: black;
+}
+
+.navbar-toggler {
+    display: none;
+    font-size: 1.25em;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.hori {
+    border: 0;
+    border-top: 1px solid white;
+    margin: 5px 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar-nav.active {
+        display: flex;
+    }
+
+    .navbar-toggler {
+        display: block;
+    }
+
+    .nav-link {
+        padding: 10px;
+    }
+}
